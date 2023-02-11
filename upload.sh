@@ -28,28 +28,31 @@ do
     
     res=$(neosctl -p $PROFILE product get $dp_name)
     ret=$?
-    if [ $ret -ne 0 ]; then
+    if [ $ret -eq 0 ]; then
         echo "$dp_name exists not creating"
     else
         echo "Create dp schema: $dp_json"
         neosctl -p $PROFILE product template -f $tmp_file $dp_name -o .
         echo "Create data product in neos core with name: $dp_name"
         neosctl -p $PROFILE product create -e postgres -f $dp_json $dp_name
-        
-        
-        res=$(neosctl -p $PROFILE spark job-status $dp_name)
-        if [ $ret -ne 0 ]; then
-            echo "Create spark job $dp_name"
-            neosctl -p $PROFILE spark csv-job $dp_name -f $tmp_file
-            echo "Wait for upload to complete"
-            while [ $(neosctl -p $PROFILE spark job-status $dp_name  | jq -r '.status' | grep COMPLETED | wc -l) -ne 0 ]
-            do
-                echo "$dp_name : $(neosctl -p $PROFILE spark job-status $dp_name | jq -r '.status')"
-                sleep 5
-            done
-            echo "neosctl -p $PROFILE spark job-status $dp_name"
-        else
-            echo "spark job exists not uploading"
-        fi
     fi
+    
+    res=$(neosctl -p $PROFILE spark job-status $dp_name)
+    ret=$?
+    if [ $ret -ne 0 ]; then
+        echo "Create spark job $dp_name"
+        neosctl -p $PROFILE spark csv-job $dp_name -f $tmp_file
+        echo "Wait for upload to complete"
+        sleep 20
+        while [ $(neosctl -p $PROFILE spark job-status $dp_name  | jq -r '.status' | grep COMPLETED | wc -l) -ne 0 ]
+        do
+            echo "$dp_name : $(neosctl -p $PROFILE spark job-status $dp_name | jq -r '.status')"
+            sleep 5
+        done
+        echo "neosctl -p $PROFILE spark job-status $dp_name"
+    else
+        echo "spark job $dp_name exists not uploading data"
+    fi
+    
+    
 done
