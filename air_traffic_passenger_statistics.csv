@@ -1,0 +1,114 @@
+ActivityPeriod,Operating_Airline,Operating_Airline_IATA_Code,Published_Airline,Published_Airline_IATA_Code,GEO_Summary,GEO_Region,Activity_Type_Code,Price_Category_Code,Terminal,Boarding_Area,Passenger_Count
+200507,ATA Airlines,TZ,ATA Airlines,TZ,Domestic,US,Deplaned,Low Fare,Terminal 1,B,27271
+200507,ATA Airlines,TZ,ATA Airlines,TZ,Domestic,US,Enplaned,Low Fare,Terminal 1,B,29131
+200507,ATA Airlines,TZ,ATA Airlines,TZ,Domestic,US,Thru / Transit,Low Fare,Terminal 1,B,5415
+200507,Air Canada,AC,Air Canada,AC,International,Canada,Deplaned,Other,Terminal 1,B,35156
+200507,Air Canada,AC,Air Canada,AC,International,Canada,Enplaned,Other,Terminal 1,B,34090
+200507,Air China,CA,Air China,CA,International,Asia,Deplaned,Other,International,G,6263
+200507,Air China,CA,Air China,CA,International,Asia,Enplaned,Other,International,G,5500
+200507,Air France,AF,Air France,AF,International,Europe,Deplaned,Other,International,A,12050
+200507,Air France,AF,Air France,AF,International,Europe,Enplaned,Other,International,A,11638
+200507,Air New Zealand,NZ,Air New Zealand,NZ,International,Australia / Oceania,Deplaned,Other,International,G,4998
+200507,Air New Zealand,NZ,Air New Zealand,NZ,International,Australia / Oceania,Enplaned,Other,International,G,4962
+200507,AirTran Airways,FL,AirTran Airways,FL,Domestic,US,Deplaned,Low Fare,International,A,8055
+200507,AirTran Airways,FL,AirTran Airways,FL,Domestic,US,Enplaned,Low Fare,International,A,7984
+200507,Alaska Airlines,AS,Alaska Airlines,AS,Domestic,US,Deplaned,Other,International,A,36641
+200507,Alaska Airlines,AS,Alaska Airlines,AS,Domestic,US,Enplaned,Other,International,A,39379
+200507,Alaska Airlines,AS,Alaska Airlines,AS,Domestic,US,Thru / Transit,Other,International,A,3678
+200507,Alaska Airlines,AS,Alaska Airlines,AS,International,Canada,Deplaned,Other,International,A,7977
+200507,Alaska Airlines,AS,Alaska Airlines,AS,International,Canada,Enplaned,Other,International,A,8837
+200507,Alaska Airlines,AS,Alaska Airlines,AS,International,Mexico,Deplaned,Other,International,A,6969
+200507,Alaska Airlines,AS,Alaska Airlines,AS,International,Mexico,Enplaned,Other,International,A,10046
+200507,Alaska Airlines,AS,Alaska Airlines,AS,International,Mexico,Thru / Transit,Other,International,A,2266
+200507,All Nippon Airways,NH,All Nippon Airways,NH,International,Asia,Deplaned,Other,International,G,6545
+200507,All Nippon Airways,NH,All Nippon Airways,NH,International,Asia,Enplaned,Other,International,G,6094
+200507,American Airlines,AA,American Airlines,AA,Domestic,US,Deplaned,Other,Terminal 3,E,166577
+200507,American Airlines,AA,American Airlines,AA,Domestic,US,Enplaned,Other,Terminal 3,E,160890
+200507,American Eagle Airlines,MQ,American Airlines,AA,Domestic,US,Deplaned,Other,Terminal 3,E,5493
+200507,American Eagle Airlines,MQ,American Airlines,AA,Domestic,US,Enplaned,Other,Terminal 3,E,5213
+200507,Asiana Airlines,OZ,Asiana Airlines,OZ,International,Asia,Deplaned,Other,International,A,5041
+200507,Asiana Airlines,OZ,Asiana Airlines,OZ,International,Asia,Enplaned,Other,International,A,4744
+200507,Atlantic Southeast Airlines,EV,Delta Air Lines,DL,Domestic,US,Deplaned,Other,Terminal 1,C,1552
+200507,Atlantic Southeast Airlines,EV,Delta Air Lines,DL,Domestic,US,Enplaned,Other,Terminal 1,C,1484
+200507,BelAir Airlines,4T,BelAir Airlines,4T,International,Europe,Deplaned,Other,International,A,325
+200507,BelAir Airlines,4T,BelAir Airlines,4T,International,Europe,Enplaned,Other,International,A,545
+200507,British Airways,BA,British Airways,BA,International,Europe,Deplaned,Other,International,A,20632
+200507,British Airways,BA,British Airways,BA,International,Europe,Enplaned,Other,International,A,21686
+200507,Cathay Pacific,CX,Cathay Pacific,CX,International,Asia,Deplaned,Other,International,A,11010
+200507,Cathay Pacific,CX,Cathay Pacific,CX,International,Asia,Enplaned,Other,International,A,9628
+200507,China Airlines,CI,China Airlines,CI,International,Asia,Deplaned,Other,International,A,13638
+200507,China Airlines,CI,China Airlines,CI,International,Asia,Enplaned,Other,International,A,11255
+200507,Delta Air Lines,DL,Delta Air Lines,DL,Domestic,US,Deplaned,Other,Terminal 1,C,97510
+200507,Delta Air Lines,DL,Delta Air Lines,DL,Domestic,US,Enplaned,Other,Terminal 1,C,93791
+200507,EVA Airways,BR,EVA Airways,BR,International,Asia,Deplaned,Other,International,G,14142
+200507,EVA Airways,BR,EVA Airways,BR,International,Asia,Enplaned,Other,International,G,12132
+200507,Frontier Airlines,F9,Frontier Airlines,F9,Domestic,US,Deplaned,Low Fare,Terminal 1,B,19234
+200507,Frontier Airlines,F9,Frontier Airlines,F9,Domestic,US,Enplaned,Low Fare,Terminal 1,B,18368
+200507,Hawaiian Airlines,HA,Hawaiian Airlines,HA,Domestic,US,Deplaned,Other,Terminal 1,C,7579
+200507,Hawaiian Airlines,HA,Hawaiian Airlines,HA,Domestic,US,Enplaned,Other,Terminal 1,C,7658
+200507,Horizon Air,QX,Alaska Airlines,AS,Domestic,US,Deplaned,Other,Terminal 1,B,5284
+200507,Horizon Air,QX,Alaska Airlines,AS,Domestic,US,Enplaned,Other,Terminal 1,B,5257
+200507,Icelandair (Inactive),FI,Icelandair (Inactive),FI,International,Europe,Deplaned,Other,International,A,4540
+200507,Icelandair (Inactive),FI,Icelandair (Inactive),FI,International,Europe,Enplaned,Other,International,A,4341
+200507,Independence Air,DH,Independence Air,DH,Domestic,US,Deplaned,Low Fare,International,A,10843
+200507,Independence Air,DH,Independence Air,DH,Domestic,US,Enplaned,Low Fare,International,A,10967
+200507,Japan Airlines,JL,Japan Airlines,JL,International,Asia,Deplaned,Other,International,A,9195
+200507,Japan Airlines,JL,Japan Airlines,JL,International,Asia,Enplaned,Other,International,A,9086
+200507,KLM Royal Dutch Airlines,KL,KLM Royal Dutch Airlines,KL,International,Europe,Deplaned,Other,International,A,9978
+200507,KLM Royal Dutch Airlines,KL,KLM Royal Dutch Airlines,KL,International,Europe,Enplaned,Other,International,A,9587
+200507,Korean Air Lines,KE,Korean Air Lines,KE,International,Asia,Deplaned,Other,International,A,6153
+200507,Korean Air Lines,KE,Korean Air Lines,KE,International,Asia,Enplaned,Other,International,A,5646
+200507,Lufthansa German Airlines,LH,Lufthansa German Airlines,LH,International,Europe,Deplaned,Other,International,G,22389
+200507,Lufthansa German Airlines,LH,Lufthansa German Airlines,LH,International,Europe,Enplaned,Other,International,G,20511
+200507,Mesa Airlines,YV,US Airways,US,Domestic,US,Deplaned,Other,Terminal 1,B,2636
+200507,Mesa Airlines,YV,US Airways,US,Domestic,US,Enplaned,Other,Terminal 1,B,2535
+200507,Mexicana Airlines,MX,Mexicana Airlines,MX,International,Mexico,Deplaned,Other,International,G,7751
+200507,Mexicana Airlines,MX,Mexicana Airlines,MX,International,Mexico,Enplaned,Other,International,G,7845
+200507,Midwest Airlines,YX,Midwest Airlines,YX,Domestic,US,Deplaned,Other,Terminal 1,A,1797
+200507,Midwest Airlines,YX,Midwest Airlines,YX,Domestic,US,Enplaned,Other,Terminal 1,A,3238
+200507,Northwest Airlines (became Delta),NW,Northwest Airlines (became Delta),NW,Domestic,US,Deplaned,Other,Terminal 1,C,64231
+200507,Northwest Airlines (became Delta),NW,Northwest Airlines (became Delta),NW,Domestic,US,Enplaned,Other,Terminal 1,C,62049
+200507,Northwest Airlines (became Delta),NW,Northwest Airlines (became Delta),NW,International,Asia,Deplaned,Other,International,A,7229
+200507,Northwest Airlines (became Delta),NW,Northwest Airlines (became Delta),NW,International,Asia,Enplaned,Other,International,A,6554
+200507,Philippine Airlines,PR,Philippine Airlines,PR,International,Asia,Deplaned,Other,International,A,12828
+200507,Philippine Airlines,PR,Philippine Airlines,PR,International,Asia,Enplaned,Other,International,A,10269
+200507,Singapore Airlines,SQ,Singapore Airlines,SQ,International,Asia,Deplaned,Other,International,G,19211
+200507,Singapore Airlines,SQ,Singapore Airlines,SQ,International,Asia,Enplaned,Other,International,G,17462
+200507,SkyWest Airlines,OO,Delta Air Lines,DL,Domestic,US,Deplaned,Other,Terminal 1,C,7262
+200507,SkyWest Airlines,OO,Delta Air Lines,DL,Domestic,US,Enplaned,Other,Terminal 1,C,6586
+200507,SkyWest Airlines,OO,United Airlines - Pre 07/01/2013,UA,Domestic,US,Deplaned,Other,Terminal 3,F,103279
+200507,SkyWest Airlines,OO,United Airlines - Pre 07/01/2013,UA,Domestic,US,Enplaned,Other,Terminal 3,F,102023
+200507,SkyWest Airlines,OO,United Airlines - Pre 07/01/2013,UA,International,Canada,Deplaned,Other,Terminal 3,F,3688
+200507,SkyWest Airlines,OO,United Airlines - Pre 07/01/2013,UA,International,Canada,Enplaned,Other,Terminal 3,F,3633
+200507,Sun Country Airlines,SY,Sun Country Airlines,SY,Domestic,US,Deplaned,Low Fare,Terminal 1,B,4827
+200507,Sun Country Airlines,SY,Sun Country Airlines,SY,Domestic,US,Enplaned,Low Fare,Terminal 1,B,4784
+200507,"TACA International Airlines, S.A.",TA,"TACA International Airlines, S.A.",TA,International,Central America,Deplaned,Other,International,G,6324
+200507,"TACA International Airlines, S.A.",TA,"TACA International Airlines, S.A.",TA,International,Central America,Enplaned,Other,International,G,7031
+200507,US Airways,US,US Airways,US,Domestic,US,Deplaned,Other,Terminal 1,A,46042
+200507,US Airways,US,US Airways,US,Domestic,US,Enplaned,Other,Terminal 1,A,45553
+200507,US Airways,US,US Airways,US,Domestic,US,Deplaned,Low Fare,Terminal 1,B,38951
+200507,US Airways,US,US Airways,US,Domestic,US,Enplaned,Low Fare,Terminal 1,B,37848
+200507,United Airlines,UA,United Airlines,UA,Domestic,US,Deplaned,Other,Terminal 1,B,62178
+200507,United Airlines,UA,United Airlines,UA,Domestic,US,Enplaned,Other,Terminal 1,B,60939
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,Domestic,US,Deplaned,Low Fare,Terminal 3,E,58767
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,Domestic,US,Enplaned,Low Fare,Terminal 3,E,58277
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,Domestic,US,Deplaned,Other,Terminal 3,F,443656
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,Domestic,US,Enplaned,Other,Terminal 3,F,421802
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,Domestic,US,Thru / Transit,Other,Terminal 3,F,11388
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Asia,Deplaned,Other,International,G,77658
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Asia,Enplaned,Other,International,G,68278
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Asia,Thru / Transit,Other,International,G,3953
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Australia / Oceania,Deplaned,Other,International,G,8603
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Australia / Oceania,Enplaned,Other,International,G,8234
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Australia / Oceania,Thru / Transit,Other,International,G,1385
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Canada,Deplaned,Other,Terminal 3,F,12874
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Canada,Enplaned,Other,Terminal 3,F,12085
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Canada,Thru / Transit,Other,Terminal 3,F,10
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Europe,Deplaned,Other,International,G,30796
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Europe,Enplaned,Other,International,G,29283
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Europe,Thru / Transit,Other,International,G,888
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Mexico,Deplaned,Other,International,G,9537
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Mexico,Enplaned,Other,International,G,9672
+200507,United Airlines - Pre 07/01/2013,UA,United Airlines - Pre 07/01/2013,UA,International,Mexico,Thru / Transit,Other,International,G,45
+200507,Virgin Atlantic,VS,Virgin Atlantic,VS,International,Europe,Deplaned,Other,International,A,11684
+200507,Virgin Atlantic,VS,Virgin Atlantic,VS,International,Europe,Enplaned,Other,International,A,10771

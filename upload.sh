@@ -3,8 +3,9 @@ export HOST="mx01.neosdata.net"
 export PASS=$(cat ~/.demo_password)
 export PROFILE="neosadmin"
 export USERNAME="neosadmin"
+export NEOS_CTL_VERSION="0.4.3"
 
-pip install neosctl==0.4.3
+sink_output=$(pip install neosctl==$NEOS_CTL_VERSION)
 
 echo "Setting up profile on $HOST"
 
@@ -54,5 +55,7 @@ do
         echo "spark job $dp_name exists not uploading data"
     fi
     
+    echo "publish data product $dp_name"
+    sink_errors=$(neosctl -p $PROFILE product publish $dp_name)
     
 done
