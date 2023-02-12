@@ -23,7 +23,10 @@ do
     dp_name="${csv%.*}"
     dp_json="$dp_name.json"
     tmp_file="tmp.csv"
-    awk 'NR==1{$0=tolower($0)} 1'  $csv > $tmp_file
+    awk 'NR==1{$0=tolower($0)} 1'  $csv > tmp1
+    sed '1s/ /_/g' tmp1 > $tmp_file
+    #rm tmp1
+
     echo "Processing $f with data product name $dp_name"
     
     
