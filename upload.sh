@@ -1,9 +1,9 @@
 #!/bin/bash
-export HOST="mx01.neosdata.net"
+export HOST="alpha.neosdata.net"
 export PASS=$(cat ~/.demo_password)
 export PROFILE="neosadmin"
 export USERNAME="neosadmin"
-export NEOS_CTL_VERSION="0.4.3"
+export NEOS_CTL_VERSION="0.5.2"
 
 sink_output=$(pip install neosctl==$NEOS_CTL_VERSION)
 
@@ -36,9 +36,10 @@ do
         echo "$dp_name exists not creating"
     else
         echo "Create dp schema: $dp_json"
+        echo "neosctl -p $PROFILE product template -f $tmp_file $dp_name -o ."
         neosctl -p $PROFILE product template -f $tmp_file $dp_name -o .
         echo "Create data product in neos core with name: $dp_name"
-        neosctl -p $PROFILE product create -e postgres -f $dp_json $dp_name
+        neosctl -p $PROFILE product create-stored -f $dp_json $dp_name
     fi
     
     res=$(neosctl -p $PROFILE spark job-status $dp_name)
@@ -48,7 +49,7 @@ do
         neosctl -p $PROFILE spark csv-job $dp_name -f $tmp_file
         echo "Wait for upload to complete"
         sleep 20
-        while [ $(neosctl -p $PROFILE spark job-status $dp_name  | jq -r '.status' | grep COMPLETED | wc -l) -ne 0 ]
+        while [ $(neosctl -p $PROFILE spark job-status $dp_name | jq -r '.status' |  grep COMPLETED | wc -l) -ne 1 ]
         do
             echo "$dp_name : $(neosctl -p $PROFILE spark job-status $dp_name | jq -r '.status')"
             sleep 5
