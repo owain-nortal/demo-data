@@ -1,3 +1,8 @@
 tmp.csv
 *.json
 tmp1
+.env
+.env-alpha
+.env-beta
+.env-prod
+users.csv
